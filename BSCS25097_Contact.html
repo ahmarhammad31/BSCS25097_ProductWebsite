@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Product Store</title>
+  <link rel="stylesheet" href="BSCS25097_style.css">
+</head>
+<body>  
+  <header>
+    <div class="navbar">
+      <a href="BSCS25097_Home.html">HOME</a>
+      <a href="BSCS25097_Products.html">PRODUCTS</a>
+      <a href="BSCS25097_Contact.html">ABOUT US</a>
+    </div>
+  </header>
+  <section class="contact-box">
+    <h2>Contact Information</h2>
+
+    <div class="contact-container">
+      <div class="contact-item">
+        <p><b>Phone:</b></p>
+        <a href="tel:03204986767">0320-4986767</a>
+      </div>
+
+      <div class="contact-item">
+        <p><b>Email:</b></p>
+        <a href="mailto:bscs25097@itu.edu.pk">bscs25097@itu.edu.pk</a>
+      </div>
+      <div class="contact-item">
+        <p><b>Location:</b></p>
+        <p>Lahore, Pakistan</p>
+      </div>
+      <div class="contact-item social-icons">
+        <a href="https://facebook.com" target="_blank">
+          <img src="BSCS25097_image7.png" alt="Facebook">
+          <p>Facebook</p>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+          <img src="BSCS25097_image8.jpg" alt="Instagram">
+          <p>Instagram</p>
+        </a>
+        <a href="https://www.linkedin.com/in/ahmar-hammad-677916379" target="_blank">
+          <img src="BSCS25097_image9.webp" alt="LinkedIn">
+          <p>LinkedIn</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    
+    <p id="errorMsg" style="color: red; font-weight: bold;"></p>
+    <p id="successMsg" style="color: green; font-weight: bold;"></p>
+  </div>
+
+ 
+  <footer>
+    <p>Contact: 0320-4986767 | Email: bscs25097@itu.edu.pk | Location: Lahore, Pakistan</p>
+    <p id="footerDate"></p>
+  </footer>
+
+  <script src="BSCS25097_script.js"></script>
+</body>
+</html>
